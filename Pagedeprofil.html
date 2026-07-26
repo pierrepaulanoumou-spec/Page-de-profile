@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de profil</title>
+    <link rel="stylesheet" href="Pagedeprofil.css">
+</head>
+<body>
+    <div class="page">
+        <header class="hero">
+            <div class="intro">
+                <h1>Profil de Pierre Paul</h1>
+                <p>Étudiant en 2e année Génie Logiciel, passionné par la création web et le design moderne.</p>
+            </div>
+            <figure class="carte-profil">
+                <img src="IMG-20260617-WA0142.jpg" alt="Photo fictive de profil" id="avatar">
+                <figcaption>
+                    <h2>ANOUMOU Pierre Paul</h2>
+                    <p>19 ans • Formation en Génie Logiciel</p>
+                </figcaption>
+            </figure>
+        </header>
+
+        <main class="contenu">
+            <section class="section formation">
+                <h2>Formation</h2>
+                <p>Actuellement en 2ème année de Génie Logiciel, je travaille sur des projets web utilisant HTML, CSS et JavaScript.</p>
+                <form action="php.php1.php" method="post">
+          <label>NOM :</label>
+          <input type="text" name="nom"><br>
+          <label>POSSESSEUR :</label>
+          <input type="text" name="possesseur"><br>
+          <label>CONSOLE :</label>
+          <input type="text" name="console"><br>
+          <label>PRIX MAX :</label>
+          <input type="text" name="prix_max"><br>
+          <label>NOMBRE JOUEURS :</label>
+          <input type="text" name="nbre_joueurs_max><br>
+          <label>COMMENTAIRES :</label>
+          <input type="text" name="commentaires"><br>
+          <input type="reset" value="Effacer">
+          <input type="submit" value="Envoyer">
+       </form>
+            </section>
+
+            <section class="section competences">
+                <h2>Compétences</h2>
+                <ul>
+                    <li>HTML & CSS : structure, mises en forme et responsive design</li>
+                    <li>Flexbox : mise en page flexible et alignement</li>
+                    <li>JavaScript : interactions et logique côté client</li>
+                    <li>Git : gestion de versions et collaboration</li>
+                </ul>
+            </section>
+
+            <section class="section interets">
+                <h2>Centres d'intérêt</h2>
+                <p>Développement web, design graphique, lecture, jeux vidéo et voyages.</p>
+            </section>
+        </main>
+
+        <footer class="pied">
+            <p>Exemple de page de profil stylisée avec HTML et CSS.</p>
+        </footer>
+    </div>
+</body>
+</html>
